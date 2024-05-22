@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автокъща "Маймун И Приятели"</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Лого">
+            <span>Автокъща "Маймун И Приятели"</span>
+        </div>
+        <nav>
+            <button onclick="showSection('cars')">Налични автомобили</button>
+            <button onclick="showSection('about')">За нас</button>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section id="cars" class="hidden">
+            <div class="car-container">
+                <div class="car">
+                    <img src="car1.jpg" alt="Car 1">
+                    <p>Модел-Audi A8</p>
+                    <p>Цена: 25000 лв.</p>
+                    <a href="dcar1.html" class="view-button">Разгледай</a>
+                </div>
+                <div class="car">
+                    <img src="car2.jpg" alt="Car 2">
+                    <p>Модел-BMW 7</p>
+                    <p>Цена: 25000 лв.</p>
+                    <a href="dcar2.html" class="view-button">Разгледай</a>
+                </div>
+                <div class="car">
+                    <img src="car3.jpg" alt="Car 3">
+                    <p>Модел-Mercedes S</p>
+                    <p>Цена: 25000 лв.</p>
+                    <a href="dcar3.html" class="view-button">Разгледай</a>
+                </div>
+                <div class="car">
+                    <img src="car1.jpg" alt="Car 1">
+                    <p>Модел-Audi A6</p>
+                    <p>Цена: 20000 лв.</p>
+                    <a href="dcar1.html" class="view-button">Разгледай</a>
+                </div>
+                <div class="car">
+                    <img src="car1.jpg" alt="Car 1">
+                    <p>Модел-BMW 5</p>
+                    <p>Цена: 20000 лв.</p>
+                    <a href="dcar1.html" class="view-button">Разгледай</a>
+                </div>
+                <div class="car">
+                    <img src="car1.jpg" alt="Car 1">
+                    <p>Модел-Mercedes E</p>
+                    <p>Цена: 20000 лв.</p>
+                    <a href="dcar1.html" class="view-button">Разгледай</a>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="hidden">
+            <h2>За нас</h2>
+            <p>Тук ще се появи информация за автокъщата.</p>
+        </section>
+        <section id="offer" class="offer-section">
+            <div class="offer-box">
+                <p>Лимитирана оферта</p>
+                <hr>
+                <div class="offer-content">
+                    <img src="limoffcar.jpg" alt="Limited Offer Car">
+                    <div class="offer-details">
+                        <p>Модел-Golf 5</p>
+                        <p>Цена: 15000 лв.</p>
+                        <p>Оставащо време: <span id="countdown"></span></p>
+                        <a href="limited-offer-details.html" class="view-button">Разгледай</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="countdown.js"></script>
+</body>
+</html>

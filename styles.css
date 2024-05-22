@@ -1,0 +1,114 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.header-title {
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav button, nav a {
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.car-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.car {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+}
+
+.view-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.offer-section {
+    margin-top: 20px;
+}
+
+.offer-box {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.offer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-content img {
+    width: 65%;
+    height: auto;
+}
+
+.offer-details {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.offer-details p {
+    margin: 5px 0;
+}
