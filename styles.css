@@ -62,7 +62,6 @@ main {
     margin-bottom: 20px;
     width: 30%;
     box-sizing: border-box;
-    justify-content: space-between;
 }
 
 .car img {
@@ -112,4 +111,11 @@ main {
 
 .offer-details p {
     margin: 5px 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
