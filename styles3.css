@@ -1,6 +1,5 @@
 .hidden {
     display: none;
-    justify-content: center;
 }
 
 .offer-box1 {
@@ -10,7 +9,7 @@
     width: 60%;
     height: 45%;
     box-sizing: border-box;
-    justify-content: center;
+    border-radius: 5%;
 }
 
 .offer-content1 {
@@ -21,6 +20,7 @@
 .offer-content img {
     width: 65%;
     height: auto;
+    border-radius: 5%;
 }
 
 .offer-details1 {

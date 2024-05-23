@@ -62,11 +62,13 @@ main {
     margin-bottom: 20px;
     width: 30%;
     box-sizing: border-box;
+    border-radius: 5%;
 }
 
 .car img {
     width: 100%;
     height: auto;
+    border-radius: 5%;
 }
 
 .view-button {

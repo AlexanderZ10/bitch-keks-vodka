@@ -1,6 +1,5 @@
 .offer-section {
     margin-top: 20px;
-    justify-content: center;
 }
 
 .offer-box {
@@ -10,7 +9,6 @@
     width: 60%;
     height: 45%;
     box-sizing: border-box;
-    justify-content: center;
 }
 
 .offer-content {
