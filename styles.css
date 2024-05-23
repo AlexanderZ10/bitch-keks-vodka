@@ -62,6 +62,7 @@ main {
     margin-bottom: 20px;
     width: 30%;
     box-sizing: border-box;
+    justify-content: space-between;
 }
 
 .car img {
