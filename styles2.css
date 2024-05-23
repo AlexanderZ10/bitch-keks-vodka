@@ -4,8 +4,8 @@
 
 .offer-box {
     border: 1px solid black;
-    border-radius: 1px;
-    padding: 2px;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .offer-content {
