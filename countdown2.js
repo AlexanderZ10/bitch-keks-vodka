@@ -1,5 +1,5 @@
 function countdown() {
-    const countdownElement = document.getElementById("countdown");
+    const countdownElement = document.getElementById("countdown2");
     const offerEndDate = new Date("2024-06-11 10:00:00");
 
     function updateCountdown() {
