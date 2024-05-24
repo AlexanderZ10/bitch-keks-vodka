@@ -17,12 +17,12 @@
 }
 
 .offer-content img {
-    width: 52%;
+    width: 65%;
     height: auto;
 }
 
 .offer-details {
-    width: 24%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
