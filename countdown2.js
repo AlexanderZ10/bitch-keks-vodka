@@ -1,8 +1,6 @@
 function countdown() {
     const countdownElement = document.getElementById("countdown");
-    
-    const offerEndDate = new Date();
-    offerEndDate.setDate(offerEndDate.getDate() + 15);
+    const offerEndDate = new Date("2024-06-11 10:00:00");
 
     function updateCountdown() {
         const now = new Date();
@@ -13,11 +11,11 @@ function countdown() {
         const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
-        countdownElement.textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        countdownElement.textContent = `${days}д ${hours}ч ${minutes}м ${seconds}с`;
 
         if (timeRemaining < 0) {
             clearInterval(countdownInterval);
-            countdownElement.textContent = "The offer has expired";
+            countdownElement.textContent = "Офертата е изтекла";
         }
     }
 
