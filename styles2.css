@@ -4,8 +4,11 @@
 
 .offer-box {
     border: 1px solid black;
-    border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 60%;
+    height: 45%;
+    box-sizing: border-box;
 }
 
 .offer-content {
@@ -14,8 +17,8 @@
 }
 
 .offer-content img {
-    width: 800px;
-    height: 600px;
+    width: 65%;
+    height: auto;
 }
 
 .offer-details {
