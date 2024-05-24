@@ -1,12 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const countdownElement = document.getElementById("countdown");
     
-    // Set today's date
-    const today = new Date("2024-05-24T00:00:00");
-
-    // Set the offer end date (10 days from today)
-    const offerEndDate = new Date(today);
-    offerEndDate.setDate(offerEndDate.getDate() + 10);
+    const offerEndDate = new Date("2024-06-6T10:00:00");
 
     function updateCountdown() {
         const now = new Date();
@@ -24,3 +19,6 @@ document.addEventListener("DOMContentLoaded", function() {
             countdownElement.textContent = "Офертата е изтекла";
         }
     }
+
+    const countdownInterval = setInterval(updateCountdown, 1000);
+});
