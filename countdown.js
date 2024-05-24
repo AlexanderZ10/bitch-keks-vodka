@@ -1,10 +1,6 @@
-document.addEventListener("DOMContentLoaded", function() {
+function countdown() {
     const countdownElement = document.getElementById("countdown");
-
-    const today = new Date("2024-05-24T00:00:00");
-
-    const offerEndDate = new Date(today);
-    offerEndDate.setDate(offerEndDate.getDate() + 10);
+    const offerEndDate = new Date("2024-06-06T10:00:00");
 
     function updateCountdown() {
         const now = new Date();
@@ -24,4 +20,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     const countdownInterval = setInterval(updateCountdown, 1000);
-});
+}
+
+document.addEventListener("DOMContentLoaded", countdown);
