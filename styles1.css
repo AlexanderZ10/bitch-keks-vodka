@@ -87,7 +87,7 @@ main {
 footer {
     background-color: lightslategray;
     padding: 20px 0;
-    color: #333;
+    color: black;
 }
 
 .footer-container {
@@ -125,7 +125,7 @@ footer {
 
 .footer-section ul li a {
     text-decoration: none;
-    color: #0056b3;
+    color: blue;
 }
 
 .footer-section ul li a:hover {
