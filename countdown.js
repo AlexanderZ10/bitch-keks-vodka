@@ -1,6 +1,6 @@
 function countdown() {
     const countdownElement = document.getElementById("countdown");
-    const offerEndDate = new Date("2024-06-06T10:00:00");
+    const offerEndDate = new Date("2024-06-06 10:00:00");
 
     function updateCountdown() {
         const now = new Date();

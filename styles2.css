@@ -9,6 +9,7 @@
     width: 60%;
     height: 45%;
     box-sizing: border-box;
+    border-radius: 5%;
 }
 
 .offer-content {
@@ -19,6 +20,7 @@
 .offer-content img {
     width: 65%;
     height: auto;
+    border-radius: 5%;
 }
 
 .offer-details {
@@ -31,4 +33,3 @@
 .offer-details p {
     margin: 5px 0;
 }
-
