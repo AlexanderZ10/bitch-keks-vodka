@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(110, 128, 207);
+    background-color: white;
     color: black;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -85,7 +85,7 @@ main {
 }
 
 footer {
-    background-color: #f8f8f8;
+    background-color: lightslategray;
     padding: 20px 0;
     color: #333;
 }
