@@ -181,3 +181,14 @@ footer {
     cursor: pointer;
     text-decoration: none;
 }
+.car-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.car-details img {
+    width: 100px; 
+    height: auto;
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
