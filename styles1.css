@@ -71,6 +71,11 @@ main {
     border-radius: 5%;
 }
 
+.car-details {
+    display: flex;
+    gap: 20px;
+}
+
 .view-button {
     background-color: blue;
     color: white;
@@ -147,44 +152,6 @@ footer {
 .footer-bottom p {
     margin: 0;
     font-size: 14px;
-}
-.car-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.car {
-    border: 1px solid black;
-    padding: 10px;
-    margin-bottom: 20px;
-    width: 30%;
-    box-sizing: border-box;
-    border-radius: 5%;
-}
-
-.car img {
-    width: 100%;
-    height: auto;
-    border-radius: 5%;
-}
-
-.view-button {
-    background-color: blue;
-    color: white;
-    border: none;
-    padding: 10px;
-    text-align: center;
-    display: block;
-    margin-top: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.car-details {
-    display: flex;
-    gap: 20px;
 }
 
 .full-size-image {
