@@ -186,23 +186,28 @@ footer {
     display: flex;
     gap: 20px;
 }
-    
-.full-size-image img {
-    width: 800px;
-    height: 480px;
-    object-fit: cover;
+
+.full-size-image {
+    flex: 0 0 60%;
 }
-    
+
+.full-size-image img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
 .mini-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     gap: 10px;
+    flex: 0 0 40%;
 }
-    
+
 .mini-grid img {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
 }
-    
