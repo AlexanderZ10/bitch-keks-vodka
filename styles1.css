@@ -181,32 +181,28 @@ footer {
     cursor: pointer;
     text-decoration: none;
 }
+
 .car-details {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 20px;
 }
-
-.car-details img {
-    border: 2px solid #ccc;
-    border-radius: 5px;
-}
-
+    
 .full-size-image img {
     width: 800px;
     height: 480px;
     object-fit: cover;
 }
-
+    
 .mini-grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 10px;
 }
-
+    
 .mini-grid img {
-    width: 150px;
-    height: 90px;
+    width: 100%; 
+    height: 100%; 
     object-fit: cover;
 }
+    
