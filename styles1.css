@@ -156,10 +156,17 @@ footer {
     display: flex;
 }
 
+.limoffcar2 {
+    width: 40%;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .mini-grid {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 60%;
 }
 .mini-grid img {
     width: calc(33.33% - 10px);
