@@ -197,3 +197,7 @@ footer {
 .car-details img:first-of-type {
     width: 300px; 
 }
+
+.car-details img:not(:first-of-type) {
+    width: calc(100px * 4 / 3); 
+    height: 100px;
