@@ -179,38 +179,3 @@ footer {
     width: calc(33.33% - 10px);
     margin: 5px;
 }
-
-.search-container {
-    position: absolute;
-    right: 20px;
-    top: 100px;
-    width: 250px;
-    background-color: #f9f9f9;
-    padding: 15px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-
-.search-container label, .search-container select, .search-container input {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.search-container input[type="text"], .search-container input[type="number"], .search-container select {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.search-container input[type="submit"] {
-    padding: 8px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.search-container input[type="submit"]:hover {
-    background-color: #45a049;
-}
