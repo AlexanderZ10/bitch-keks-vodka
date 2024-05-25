@@ -193,7 +193,7 @@ footer {
     border-radius: 5px;
 }
 
-.car-details img:first-of-type {
+.full-size-image img {
     width: 800px;
     height: 480px;
     object-fit: cover;
@@ -203,10 +203,9 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: center;
 }
 
-.mini img {
+.mini-grid img {
     width: 150px;
     height: 90px;
     object-fit: cover;
