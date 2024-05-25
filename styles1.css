@@ -148,27 +148,6 @@ footer {
     margin: 0;
     font-size: 14px;
 }
-.car-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.car {
-    border: 1px solid black;
-    padding: 10px;
-    margin-bottom: 20px;
-    width: 30%;
-    box-sizing: border-box;
-    border-radius: 5%;
-}
-
-.car img {
-    width: 100%;
-    height: auto;
-    border-radius: 5%;
-}
-
 .view-button {
     background-color: blue;
     color: white;
@@ -184,30 +163,32 @@ footer {
 
 .car-details {
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
-.full-size-image {
-    flex: 0 0 60%;
-}
-
-.full-size-image img {
-    width: 100%;
-    height: auto;
+.car-details img {
     border: 2px solid #ccc;
     border-radius: 5px;
+}
+
+.car-details img:first-of-type {
+    width: 800px;
+    height: 480px;
+    object-fit: cover;
 }
 
 .mini-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 240px;
     gap: 10px;
-    flex: 0 0 40%;
+    justify-content: center;
 }
 
 .mini-grid img {
-    width: 100%;
-    height: auto;
-    border: 2px solid #ccc;
-    border-radius: 5px;
+    width: 400px;
+    height: 240px;
+    object-fit: cover;
 }
