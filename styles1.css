@@ -189,7 +189,7 @@ footer {
     width: 100%;
 }
 .mini-grid img {
-    width: calc(16.66% - 15px);
+    width: calc(16.66% - 19px);
     margin: 5px;
     border-radius: 5%;
     cursor: pointer;
@@ -201,3 +201,4 @@ footer {
     transform: scale(1.05);
     border-color: black;
 }
+
