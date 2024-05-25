@@ -84,6 +84,8 @@ main {
     text-decoration: none;
 }
 
+
+
 footer {
     background-color: lightslategray;
     padding: 20px 0;
@@ -148,38 +150,34 @@ footer {
     margin: 0;
     font-size: 14px;
 }
-.car-container {
+
+
+.container1_1 {
+    display: flex;
+}
+
+.limoffcar2 {
+    width: 40%;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.limoffcar {
+    width: 40%;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.mini-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    width: 60%;
 }
-
-.car {
-    border: 1px solid black;
-    padding: 10px;
-    margin-bottom: 20px;
-    width: 30%;
-    box-sizing: border-box;
-    border-radius: 5%;
-}
-
-.car img {
-    width: 100%;
-    height: auto;
-    border-radius: 5%;
-}
-
-.view-button {
-    background-color: blue;
-    color: white;
-    border: none;
-    padding: 10px;
-    text-align: center;
-    display: block;
-    margin-top: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
+.mini-grid img {
+    width: calc(33.33% - 10px);
+    margin: 5px;
 }
 
 .search-container {
