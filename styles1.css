@@ -199,14 +199,14 @@ footer {
     object-fit: cover;
 }
 
-.thumbnail-grid {
+.mini-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
 }
 
-.thumbnail-grid img {
+.mini img {
     width: 150px;
     height: 90px;
     object-fit: cover;
