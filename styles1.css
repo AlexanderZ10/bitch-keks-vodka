@@ -152,3 +152,16 @@ footer {
 }
 
 
+.container1_1 {
+    display: flex;
+}
+
+.mini-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.mini-grid img {
+    width: calc(33.33% - 10px);
+    margin: 5px;
+}
