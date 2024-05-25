@@ -84,7 +84,9 @@ main {
     text-decoration: none;
 }
 
-
+.car-details{
+    text-align: center;
+}
 
 footer {
     background-color: lightslategray;
@@ -151,31 +153,51 @@ footer {
     font-size: 14px;
 }
 
-
-.container1_1 {
-    display: flex;
-}
-
 .limoffcar2 {
-    width: 40%;
-    margin-right: 20px;
+    width: 30%;
+    margin-right: 450px;
+    margin-left: 450px;
     margin-top: 5px;
     margin-bottom: 5px;
+    border-radius: 5%;
+    cursor: pointer;
+    border: 2.5px solid beige;
+    transition:ease;
 }
 
 .limoffcar {
-    width: 40%;
-    margin-right: 20px;
+    width: 30%;
+    margin-right: 450px;
+    margin-left: 450px;
     margin-top: 5px;
     margin-bottom: 5px;
+    border-radius: 5%;
+    cursor: pointer;
+    border: 5px solid beige;
+    transition:ease;
+}
+
+.limoffcar2:hover {
+    transform: scale(1.05);
+    border-color: black;
 }
 
 .mini-grid {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    width: 60%;
+    width: 100%;
 }
 .mini-grid img {
-    width: calc(33.33% - 10px);
+    width: calc(16.66% - 15px);
     margin: 5px;
+    border-radius: 5%;
+    cursor: pointer;
+    border: 2.5px solid beige;
+    transition:ease;
+}
+
+.mini-grid img:hover {
+    transform: scale(1.05);
+    border-color: black;
 }
