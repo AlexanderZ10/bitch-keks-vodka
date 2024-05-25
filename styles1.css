@@ -185,18 +185,18 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .car-details img {
     border: 2px solid #ccc;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .car-details img:first-of-type {
-    width: 800px; 
-    height: 480px; 
-    object-fit: cover; 
+    width: 800px;
+    height: 480px;
+    object-fit: cover;
 }
 
 .thumbnail-grid {
@@ -207,7 +207,7 @@ footer {
 }
 
 .thumbnail-grid img {
-    width: 150px; 
-    height: 90px; 
-    object-fit: cover; 
+    width: 150px;
+    height: 90px;
+    object-fit: cover;
 }
