@@ -71,11 +71,6 @@ main {
     border-radius: 5%;
 }
 
-.car-details {
-    display: flex;
-    gap: 20px;
-}
-
 .view-button {
     background-color: blue;
     color: white;
@@ -88,6 +83,7 @@ main {
     cursor: pointer;
     text-decoration: none;
 }
+
 
 footer {
     background-color: lightslategray;
