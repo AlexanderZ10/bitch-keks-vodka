@@ -5,10 +5,11 @@
 .offer-box2 {
     border: 1px solid black;
     padding: 10px;
-    margin-right: 20px;
-    margin-top: 20px;
-    width: 40%;
-    height: 30%;
+    margin-left: 300px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 60%;
+    height: 45%;
     box-sizing: border-box;
     border-radius: 5%;
 }
@@ -16,10 +17,10 @@
 .offer-box2_2 {
     border: 1px solid black;
     padding: 10px;
-    margin-left: 900px;
-    margin-bottom: 20px;
-    width: 40%;
-    height: 30%;
+    margin-left: 300px;
+    margin-bottom: 0px;
+    width: 60%;
+    height: 45%;
     box-sizing: border-box;
     border-radius: 5%;
 }
@@ -30,13 +31,13 @@
 }
 
 .offer-content img {
-    width: 53.5%;
+    width: 65%;
     height: auto;
     border-radius: 5%;
 }
 
-.offer-details1 {
-    width: 41.5%;
+.offer-details {
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
