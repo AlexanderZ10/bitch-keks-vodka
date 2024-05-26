@@ -2,12 +2,24 @@
     margin-top: 20px;
 }
 
-.offer-box {
+.offer-box1 {
     border: 1px solid black;
     padding: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 40%;
+    height: 30%;
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+.offer-box1_1 {
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 900px;
     margin-bottom: 20px;
-    width: 60%;
-    height: 45%;
+    width: 40%;
+    height: 30%;
     box-sizing: border-box;
     border-radius: 5%;
 }
@@ -18,13 +30,13 @@
 }
 
 .offer-content img {
-    width: 65%;
+    width: 53.5%;
     height: auto;
     border-radius: 5%;
 }
 
 .offer-details {
-    width: 30%;
+    width: 41.5%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
