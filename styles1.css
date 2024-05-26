@@ -207,3 +207,28 @@ footer {
     border-color: black;
 }
 
+
+.blank {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.blank a {
+    display: block;
+    margin: 5px;
+}
+
+.blank img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    transition: transform 0.2s;
+}
+
+.blank img:hover {
+    transform: scale(1.1);
+    border-color: #777;
+}
+
