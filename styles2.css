@@ -2,12 +2,15 @@
     margin-top: 20px;
 }
 
+.offer-content {
+    margin-left: 400px;
+    
+}
+
 .offer-box {
     border: 1px solid black;
     padding: 10px;
     margin-bottom: 20px;
-    margin-left: 400px;
-    margin-right: 400px;
     width: 60%;
     height: 45%;
     box-sizing: border-box;
